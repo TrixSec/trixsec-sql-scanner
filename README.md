@@ -2,14 +2,14 @@
 #### Finds Sql Injection Vulnerability Using Custom Google Dorks
 
 
-__Usage:__ `python main.py -d product.php?id=`
+__Usage:__ `python3 main.py -d product.php?id=`
 
 ### Requirements
 - Python *v.2.x* **|** *v.3.x*
 
 ### Help
 ```
-usage: main.py [-h] -d DORK [-w]
+usage: python3 main.py [-h] -d DORK [-w]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -18,13 +18,13 @@ optional arguments:
 ```
 
 ### Install 
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
 
 ### Save over existing file 
-`python main.py -d product.php?id=`
+`python3 main.py -d product.php?id=`
 
 ### Over Write over existing saved file 
-`python main.py -d product.php?id= -w`
+`python3 main.py -d product.php?id= -w`
 
 
 
